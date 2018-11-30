@@ -1,0 +1,7 @@
+language: C
+script: make test
+before_install:
+	sudo apt-get update && sudo apt-get install check 
+addons:
+	apt:
+	Update:true
